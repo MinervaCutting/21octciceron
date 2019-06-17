@@ -1,0 +1,204 @@
+---
+title: <br><br><center>CICERON BCN OCT 21ST<center>
+author: "Minerva Martínez"
+date: "`r Sys.Date()`"
+output:
+  rmdformats::readthedown:
+    highlight: kate
+    thumbnails: false
+    lightbox: true
+    gallery: true
+    css: form.css
+---
+
+<script> 
+    $(document).ready(function() { 
+    $head = $('#header'); 
+    $head.prepend('<A href = https://www.cuttingedge-events.com><img src ="LOGO.png" width="150" vspace="50" align="right"></A>') 
+    }); 
+</script> 
+
+
+
+```{r echo=FALSE, message=FALSE,warning=FALSE}
+library(readxl)
+library(shiny)
+library(dplyr)
+library(knitr)
+```
+
+**Introduction:**
+
+On October 21st, 18 guests will arrive in Barcelona at 7.45h. They can not arrive to the hotel before 16.00h, so they will have around 8 hours to have a really good time...
+
+Below you will find 3 proposals, all three will include breakfast, a funny activity and a lunch.
+
+
+## Option 1 
+
+**CHOCOCHURROS + E.BIKETOUR + WINERY VISIT AND LUNCH**
+
+Guests will be transferred from the Airport to Plaza Catalunya by a 30 seaters bus, they will let the luggage in the bus until the hotel.
+They will walk to **Nuria**, a nice restaurant located at the beginning of Las Ramblas,  where they will enjoy the most traditional Spanish breakfast: "Chocolate con Churros"
+
+<img src = "http://www.nuria.com/images/biblioteca/raco-nuria-footer.jpg" width="100%">
+
+<img src = "http://www.enjoyzaragoza.es/wp-content/uploads/2017/11/91-2-churros-sauce-chocolat0202.jpg" width="100%">
+
+At 9.30h, after this sweet breakfast they will walk around 10 minutes to the electric bikes shop.
+At 9.45h the English speaking guides will do a short briefing explaining to our guests the security instructions and a little bit the route they will do.
+At 10 the tour will start from the Cathedral square and they will go trough Ciutadella Park to the seafront promenade and then to Badalona where, they will do a break to have a drink
+
+<iframe src="https://www.google.com/maps/d/embed?mid=1cjUt9pS0JjR_b9f58MFqnk60OpeCqI13&hl=es" width="800" height="550"></iframe>
+
+After 15 minutes break they will continue their way to the winery. The 80% of the route is trough the seafront and very flat and during the last part of the route they can use the engine that will help them to finish without a big effort.
+ 
+<img src = "https://www.iconoserveis.com/wp-content/uploads/2018/10/ruta-bicicleta-electrica-1030x523.jpg" width="100%">
+
+<img src = "http://radiopremiademar.org/wp-content/uploads/2017/07/El-Masnou-platja-recurs-02-777x437.jpg" width="100%">
+
+Once in Alella they will go to El Bouquet, a very small family winery located on the top of a little hill.
+
+<img src = "https://media-cdn.tripadvisor.com/media/photo-s/0a/5c/79/db/getlstd-property-photo.jpg" width="100%">
+
+When they will arrive they will do a short visit to the winery and a wine tasting all explained by a local wine expert guide. Then they will enjoy a picnic lunch in the vineyard.
+After the lunch our bus (already with their luggage) will pickup the group and will transfer them to La Mola
+
+<img src = "https://www.vinetur.com/imagenes/2015/febrero/12/bouquet_dalella.jpg" width="100%">
+
+
+#### **Rates**
+
+    *Choco-Churros breakfast from: 7€ per pax VAT inc
+    *Electric bike tour to Alella: 43€ per pax VAT inc
+    *e.bikes transportation after the tour: 250€ VAT inc
+    *Visit, wine tasting and picnic lunch at Bouquet: 70€ per pax VAT inc
+    *Bus at diposal from 7.45h to 16.00h: 687€ VAT inc
+
+****
+
+## Option 2 
+
+**BREAKFAST + SPECIAL CITYTOUR + LUNCH AT THE BEACH**
+
+Guests will be transferred from the Airport to Pla de Palau by a 30 seaters bus, they will let the luggage in the bus until the hotel.
+They will have a full breakfast at **Casa Pascual**, coffee, orange juice and a sandwich.
+
+<img src = "http://www.elmolinoalbergue.com/img/desayunos/completo1.jpg" width="100%">
+
+Then they will walk to their next city tour activity:
+
+### City tour options: {.tabset .tabset-fade .tabset-pills}
+
+#### Barcelona Segway tour - 120 minutes
+
+On the way from the center to Barceloneta beach Playa de la Barceloneta – one of Barcelona’s most popular beaches – the tour itinerary continues alongside the outskirts of the La Barceloneta, the old fishermen district.
+
+On the big square in front of the beach, La Plaza del Mar, the tour passes by the Torre de Sant Sebastià, station of the red cable car Telefèric del Port Vell, which was inaugurated in 1931 and transports visitors from the beach to the Montjuic mountain. 
+The following part of the tour includes the area around the W Hotel and Barcelona’s newest yacht marina, the Marina Vela Barcelona, where spacious terraces offer beautiful views of Barcelona’s coastline.
+
+<img src = "https://cdn02.visitbarcelona.com/files/5531-4508-imagenCAT/BarcelonaSegway-T24-g.jpg" width="100%">
+
+The Barcelona Waterfront Segway Tour includes some of Barcelona’s most beautiful places, little of which are visited during traditional sightseeing trips like city tours by bus. It offers a comprehensive overview of Barcelona’s maritime history, the ongoing transformation of the city’s waterfront and the role that the mediterranean sea plays in Barcelona’s local culture.
+
+Our tour will finish next to Hospital del Mar, less than 10  minutes walking from the suggested restaurant: **Restaurant Arenal**
+
+****
+
+#### Olympic GoCar tour - 120 minutes
+
+We suggest the Olympic tour because it is a 2h tour that will show our guests a big area of the city centre in a very funny way. This tour will start at Arc del Triomf and they will go to Montjuic to see all the Olympic area: stadium, Palau Sant Jordi, Mnac...
+They will drive on their own these small yellow cars guided by a customized GPS
+After 2 hours they will finish near the suggested restaurant **Restaurant Arenal**
+
+<img src = "Olympic Route Small copy.jpg" width="100%">
+
+<img src = "https://barcelona-home.com/blog/wp-content/upload/2014/05/go-car-955x488-955x488.png" width="100%">
+
+
+### Lunch at the beach at **Restaurant Arenal**
+
+<img src = "https://www.atrapalo.com/common/photo/res/357/166996/ticr_0_0.jpg" width="100%">
+
+The privileged location of the restaurant allows us to have lunch or dinner almost with our feet on the sand under the marquee of a wonderful terrace. Besides, the huge windows of the elegant interior dining room –in which walls are covered with large black and white pictures- offer stunning views with the blue Mediterranean sea as a backdrop.
+
+The gastronomic offer is nothing out of the ordinary but is correct, and is based on the Mediterranean cuisine. The wide menu features tapas, salads, carpaccios, rice dishes, fish and meat.
+
+After lunch, our bus will pick guests up and transfer them to the Hotel La Mola.
+
+
+### Rates
+
+    *Breakfast from: 14€ per pax VAT inc
+    *Segway tour (2h): 60€ per person VAT inc
+    *Segways transportation: 150€ VAT inc
+    *GoCar Tour (2h): 83€ per pax VAT inc
+    *GoCars transportation: 35€ per CAR VAT Inc
+    *Three courses Lunch at Restaurant Arenal including drinks and coffees, from: 45€ per person VAT inc
+    *Bus at diposal from 7.45h to 16.00h: 687€ VAT inc
+
+
+****
+
+## Option 3  
+
+**COCHO-CHURROS + CABLE CAR TOUR + LUNCH WITH VIEWS**
+
+Guests will be transferred from the Airport to Plaza Catalunya by a 30 seaters bus, they will let the luggage in the bus until the hotel.
+They will walk to **Nuria**, a nice restaurant located at the beginning of Las Ramblas,  where they will enjoy the most traditional Spanish breakfast: "Chocolate con Churros"
+
+<img src = "http://www.nuria.com/images/biblioteca/raco-nuria-footer.jpg" width="100%">
+
+<img src = "http://www.enjoyzaragoza.es/wp-content/uploads/2017/11/91-2-churros-sauce-chocolat0202.jpg" width="100%">
+
+Once finished the breakfast, Our English speaking guide will pick the group to start the cable car tour. They will go to the Montjuic cable car that goes to the top of Montjuic hill, where the castle is located.  The cars are small, up to 6 pax, but it is very fast.
+
+<img src = "https://media-edg.barcelona.cat/wp-content/uploads/2017/10/02145218/el-teleferic-de-montjuic_2-760x428.jpg" width="100%">
+
+<img src = "https://media-edg.barcelona.cat/wp-content/uploads/2015/05/1-2-3-2-10-DISE-Vista-panor%C3%A0mica-de-Barcelona-10-3-14-HEMAV-12.jpg" width="100%">
+
+From the castle they will walk down the hill enjoying the wonderful city views until they will arrive to Miramar where they will find the "Aeri del Port". This is the oldest cable car in Barcelona. It goes from Montjuic hill to the old port.
+The car is up to 18 pax, it is not possible to hace it in exclusive or to book it in advance so, once guests will arrive to the station they will have to keep the line, but usually in this time of the year it won't be very long...and it worth it.
+
+<img src = "https://media.timeout.com/images/102817904/630/472/image.jpg" width="100%">
+
+Once they will arrive to the Port station they will go down the tower by a lift and once all guests will be down they will be transfered to the other Barcelona's hill; Tibidabo
+
+Located at the top of the hill we can find the restaurant that we suggest for this lunch: Mirabé
+
+<img src = "https://u.tfstatic.com/restaurant_photos/738/46738/169/612/mirabe-sala-0e63b.jpg" width="100%">
+
+For over a decade, at the end of Avenida Tibidabo a splendid balcony over Barcelona offers a spectacular setting to enjoy the best views of the city.
+Elegant and warm, the top floor of the space has a large window with a long bar that offers a stunning view of the city.
+On the other hand, the garden boasts a nice landscape –there is even a pond– and has a terrace that lit up, in the evening, is a magical setting
+
+After lunch they will be transfered to the hotel La Mola
+
+### Rates
+
+    *Choco-Churros: 7€ per pax VAT inc
+    *Cable Car tour (including English speaking guide and cable car tickets): 45€ per pax VAT inc
+    *Three courses Lunch at Restaurant Mirabé including drinks and coffees, from: 53€ per pax VAT inc
+    *Bus at diposal from 7.45h to 16.00h: 687€ VAT inc
+
+
+****
+
+## Terms & Conditions
+
+  * Rates valid for 2019.
+  
+  * Net Rates for Ciceron
+  
+  * Cutting Edge Events management fee including in the detailed rates
+  
+  * VAT included. 
+  
+  * No reservation has been done. Availability upon request.
+  
+*****
+
+
+
+
+
